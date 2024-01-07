@@ -84,4 +84,79 @@ public class Kontakt {
     @OneToOne
     @JoinColumn(name = "beziehung_id", referencedColumnName = "id")
     private Beziehung beziehung_id;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getVorname() {
+		return vorname;
+	}
+
+	public void setVorname(String vorname) {
+		this.vorname = vorname;
+	}
+
+	public String getNachname() {
+		return nachname;
+	}
+
+	public void setNachname(String nachname) {
+		this.nachname = nachname;
+	}
+
+	public String getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+
+	public Long getPlz() {
+		return plz;
+	}
+
+	public void setPlz(Long plz) {
+		this.plz = plz;
+	}
+
+	public String getOrt() {
+		return ort;
+	}
+
+	public void setOrt(String ort) {
+		this.ort = ort;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getTelefon_nummer() {
+		return telefon_nummer;
+	}
+
+	public void setTelefon_nummer(String telefon_nummer) {
+		this.telefon_nummer = telefon_nummer;
+	}
+
+	public Beziehung getBeziehung_id() {
+		return beziehung_id;
+	}
+
+	public void setBeziehung_id(Beziehung beziehung_id) {
+		this.beziehung_id = beziehung_id;
+	}
+    
+    
+    
 }

@@ -36,4 +36,22 @@ public class Beziehung {
      */
     @NotNull
     private String bezeichnung;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getBezeichnung() {
+		return bezeichnung;
+	}
+
+	public void setBezeichnung(String bezeichnung) {
+		this.bezeichnung = bezeichnung;
+	}
+    
+    
 }
